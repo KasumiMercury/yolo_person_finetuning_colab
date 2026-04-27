@@ -1,0 +1,20 @@
+{
+  "timestamp": "20260427_123605",
+  "run_name": "yolo26n_person_ft",
+  "base_model": "yolo26n.pt",
+  "data_yaml": "/content/coco_person_yolo/dataset.yaml",
+  "total_epochs_run": 87,
+  "best_epoch": 72,
+  "best_metrics": {
+    "train/box_loss": 1.41847,
+    "train/cls_loss": 1.14946,
+    "train/dfl_loss": 0.00959,
+    "metrics/precision(B)": 0.7162,
+    "metrics/recall(B)": 0.56851,
+    "metrics/mAP50(B)": 0.64605,
+    "metrics/mAP50-95(B)": 0.38595,
+    "val/box_loss": 1.47989,
+    "val/cls_loss": 1.2123,
+    "val/dfl_loss": 0.01629
+  }
+}
